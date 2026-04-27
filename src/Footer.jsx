@@ -1,8 +1,9 @@
-function Footer({ children }) {
+import './Footer.css'
+function Footer() {
   return (
-    <>
+    <div className="footer">
       <p>© 2026 SénTransport ESP/UCAD</p>
-    </>
+    </div>
   )
 }
 
